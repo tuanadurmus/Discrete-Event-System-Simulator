@@ -4,9 +4,6 @@
 #include <assert.h>
 #include "sdd.h"
 
-// Do your SortedDispatcherDatabase implementation here. 
-// Implement the 3 given methods here. You can add 
-// more methods as you see necessary.
 static TaskNode* create_node(Task* task){
     TaskNode* node = (TaskNode*)malloc(sizeof(TaskNode));
     if (node == NULL){
